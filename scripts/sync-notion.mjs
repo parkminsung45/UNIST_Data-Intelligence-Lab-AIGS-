@@ -14,8 +14,22 @@ if (!NOTION_TOKEN || !DATABASE_ID) {
 const notion = new Client({ auth: NOTION_TOKEN });
 const n2m = new NotionToMarkdown({ notionClient: notion });
 
+// Drop images: Notion's hosted image URLs are pre-signed and expire, so
+// embedding them would leave dead links in the repo.
+n2m.setCustomTransformer("image", async () => "");
+
 const OUT_DIR = path.join(process.cwd(), "til");
-const MANIFEST_PATH = path.join(OUT_DIR, ".sync-manifest.json");
+const MANIFEST_PATH = path.join(process.cwd(), ".notion-sync-manifest.json");
+
+function dedent(text) {
+  const lines = text.split("\n");
+  const indents = lines
+    .filter((l) => l.trim().length > 0)
+    .map((l) => l.match(/^ */)[0].length);
+  const minIndent = indents.length ? Math.min(...indents) : 0;
+  if (minIndent === 0) return text;
+  return lines.map((l) => (l.startsWith(" ".repeat(minIndent)) ? l.slice(minIndent) : l)).join("\n");
+}
 
 function slugify(text) {
   return text
@@ -39,6 +53,40 @@ function getDate(properties, fallbackISO) {
 function getTags(properties) {
   const multiSelect = Object.values(properties).find((p) => p.type === "multi_select");
   return multiSelect?.multi_select?.map((t) => t.name) ?? [];
+}
+
+function stripTranscriptDisclaimer(text) {
+  return text
+    .split("\n")
+    .filter((l) => !(l.trim().startsWith(">") && /트랜스크립트|전사 품질/.test(l)))
+    .join("\n");
+}
+
+// Notion's audio transcription block stores AI-generated notes as the first
+// child group, followed by the raw speech-to-text transcript as later groups.
+// We only want the curated notes, not the raw dictation.
+async function renderTranscriptionBlock(block) {
+  const groups = await notion.blocks.children.list({ block_id: block.id });
+  const notesGroup = groups.results[0];
+  if (!notesGroup) return "";
+  const mdBlocks = await n2m.pageToMarkdown(notesGroup.id);
+  return n2m.toMarkdownString(mdBlocks).parent;
+}
+
+async function pageToMarkdownBody(pageId) {
+  const topLevel = await notion.blocks.children.list({ block_id: pageId });
+  const transcriptionBlocks = topLevel.results.filter((b) => b.type === "transcription");
+
+  let body;
+  if (transcriptionBlocks.length > 0) {
+    const parts = await Promise.all(transcriptionBlocks.map(renderTranscriptionBlock));
+    body = parts.join("\n\n");
+  } else {
+    const mdBlocks = await n2m.pageToMarkdown(pageId);
+    body = n2m.toMarkdownString(mdBlocks).parent;
+  }
+
+  return dedent(stripTranscriptDisclaimer(body));
 }
 
 async function fetchAllPages() {
@@ -89,8 +137,7 @@ async function main() {
     const date = getDate(page.properties, page.created_time);
     const tags = getTags(page.properties);
 
-    const mdBlocks = await n2m.pageToMarkdown(page.id);
-    const body = n2m.toMarkdownString(mdBlocks).parent;
+    const body = await pageToMarkdownBody(page.id);
 
     const fileName = `${date}-${slugify(title)}.md`;
     const filePath = path.join(OUT_DIR, fileName);
