@@ -139,6 +139,9 @@ async function main() {
 
     const body = await pageToMarkdownBody(page.id);
 
+    // Skip blank/placeholder database rows (no title and no content).
+    if (title === "Untitled" && body.trim() === "") continue;
+
     const fileName = `${date}-${slugify(title)}.md`;
     const filePath = path.join(OUT_DIR, fileName);
 
