@@ -2,6 +2,9 @@ import { Client, isFullPage } from "@notionhq/client";
 import { NotionToMarkdown } from "notion-to-md";
 import { promises as fs } from "fs";
 import path from "path";
+import { fileURLToPath } from "url";
+
+const SCRIPT_DIR = path.dirname(fileURLToPath(import.meta.url));
 
 const NOTION_TOKEN = process.env.NOTION_TOKEN;
 const DATABASE_ID = process.env.NOTION_DATABASE_ID;
@@ -18,8 +21,8 @@ const n2m = new NotionToMarkdown({ notionClient: notion });
 // embedding them would leave dead links in the repo.
 n2m.setCustomTransformer("image", async () => "");
 
-const OUT_DIR = path.join(process.cwd(), "til");
-const MANIFEST_PATH = path.join(process.cwd(), ".notion-sync-manifest.json");
+const OUT_DIR = path.join(SCRIPT_DIR, "..", "TIL");
+const MANIFEST_PATH = path.join(SCRIPT_DIR, ".notion-sync-manifest.json");
 
 function dedent(text) {
   const lines = text.split("\n");

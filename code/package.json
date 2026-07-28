@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "sync": "node scripts/sync-notion.mjs"
+    "sync": "node sync-notion.mjs"
   },
   "dependencies": {
     "@notionhq/client": "^2.2.15",

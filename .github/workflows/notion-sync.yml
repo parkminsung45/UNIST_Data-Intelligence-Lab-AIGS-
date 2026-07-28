@@ -20,9 +20,11 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
+        working-directory: code
         run: npm install
 
       - name: Sync from Notion
+        working-directory: code
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_DATABASE_ID: "3abb3408-c4c5-80c4-a463-d6bf0cff0c77"
@@ -32,6 +34,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add til/ .notion-sync-manifest.json
+          git add TIL/ code/.notion-sync-manifest.json
           git diff --cached --quiet || git commit -m "chore: sync TIL from Notion"
           git push
