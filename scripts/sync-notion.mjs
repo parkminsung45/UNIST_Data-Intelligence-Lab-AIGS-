@@ -86,7 +86,7 @@ async function pageToMarkdownBody(pageId) {
     body = n2m.toMarkdownString(mdBlocks).parent;
   }
 
-  return dedent(stripTranscriptDisclaimer(body));
+  return dedent(stripTranscriptDisclaimer(body ?? ""));
 }
 
 async function fetchAllPages() {
