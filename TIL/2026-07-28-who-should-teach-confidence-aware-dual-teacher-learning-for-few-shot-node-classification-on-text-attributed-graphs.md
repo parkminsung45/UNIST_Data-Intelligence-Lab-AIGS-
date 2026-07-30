@@ -2,8 +2,6 @@
 title: "Who Should Teach? Confidence-Aware Dual-Teacher Learning for Few-Shot Node Classification on Text-Attributed Graphs"
 date: 2026-07-28
 tags: ["워크샵"]
-notion_url: https://app.notion.com/p/Who-Should-Teach-Confidence-Aware-Dual-Teacher-Learning-for-Few-Shot-Node-Classification-on-Text-At-3abb3408c4c5805cbc8fc439fd9078de
-last_edited_time: 2026-07-28T13:21:00.000Z
 ---
 
 # Who Should Teach? Confidence-Aware Dual-Teacher Learning for Few-Shot Node Classification on Text-Attributed Graphs

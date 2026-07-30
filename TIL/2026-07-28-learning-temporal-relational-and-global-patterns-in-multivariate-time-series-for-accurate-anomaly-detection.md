@@ -2,8 +2,6 @@
 title: "Learning Temporal, Relational, and Global Patterns in Multivariate Time Series for Accurate Anomaly Detection"
 date: 2026-07-28
 tags: ["워크샵"]
-notion_url: https://app.notion.com/p/Learning-Temporal-Relational-and-Global-Patterns-in-Multivariate-Time-Series-for-Accurate-Anomaly--3abb3408c4c5803abebbf7071420e070
-last_edited_time: 2026-07-28T13:21:00.000Z
 ---
 
 ## 다변량 시계열 이상 탐지(Multivariate Time Series Anomaly Detection)

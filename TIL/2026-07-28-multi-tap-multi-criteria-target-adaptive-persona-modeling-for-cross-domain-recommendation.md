@@ -2,8 +2,6 @@
 title: "Multi-TAP: Multi-criteria Target Adaptive Persona Modeling for Cross-Domain Recommendation"
 date: 2026-07-28
 tags: ["워크샵"]
-notion_url: https://app.notion.com/p/Multi-TAP-Multi-criteria-Target-Adaptive-Persona-Modeling-for-Cross-Domain-Recommendation-3abb3408c4c5801ca53ec5d296cec651
-last_edited_time: 2026-07-28T13:21:00.000Z
 ---
 
 ## Multi-TAP : 교차 도메인 추천(CDR) 성능을 높이기 위해 제안된 최신 프레임워크 

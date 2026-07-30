@@ -2,8 +2,6 @@
 title: "Behavioral Simulation intelligence for human-AI interaction"
 date: 2026-07-28
 tags: ["워크샵"]
-notion_url: https://app.notion.com/p/Behavioral-Simulation-intelligence-for-human-AI-interaction-3abb3408c4c580a0904ec8fdd377e62e
-last_edited_time: 2026-07-28T13:21:00.000Z
 ---
 
 ### 연구실 소개 (차이렉, CHAI Lab)

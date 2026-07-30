@@ -2,8 +2,6 @@
 title: "Embedding-aware Polarization Management Framework in Signed Networks"
 date: 2026-07-28
 tags: ["워크샵"]
-notion_url: https://app.notion.com/p/Embedding-aware-Polarization-Management-Framework-in-Signed-Networks-3abb3408c4c5806aad6cfc9bf6581769
-last_edited_time: 2026-07-28T13:21:00.000Z
 ---
 
 ## Signed Networks에서 극화(Polarization) 현상을 측정하고 완화하기 위한 프레임워크로 유효 저항(Effective Resistance) 기반의 임베딩 측정과 구조적 균형을 고려한 완화 전략이라는 2가지 핵심 기능 제공

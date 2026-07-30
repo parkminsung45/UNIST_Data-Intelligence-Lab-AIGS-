@@ -2,8 +2,6 @@
 title: "Supporting Designers' Vagueness by Connecting Natural Language Prompts with Real-World Design References through Knowledge Graphs"
 date: 2026-07-28
 tags: ["워크샵"]
-notion_url: https://app.notion.com/p/Supporting-Designers-Vagueness-by-Connecting-Natural-Language-Prompts-with-Real-World-Design-Refere-3abb3408c4c5803aa703fed07e72b577
-last_edited_time: 2026-07-28T13:21:00.000Z
 ---
 
 ## 📌 연구 주제

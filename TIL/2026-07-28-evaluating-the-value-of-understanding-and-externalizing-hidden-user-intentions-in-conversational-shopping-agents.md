@@ -2,8 +2,6 @@
 title: "Evaluating the Value of Understanding and Externalizing Hidden User Intentions in Conversational Shopping Agents"
 date: 2026-07-28
 tags: ["워크샵"]
-notion_url: https://app.notion.com/p/Evaluating-the-Value-of-Understanding-and-Externalizing-Hidden-User-Intentions-in-Conversational-Sho-3abb3408c4c580c18e52ff5ba1e76597
-last_edited_time: 2026-07-28T13:21:00.000Z
 ---
 
 ### 핵심 내용

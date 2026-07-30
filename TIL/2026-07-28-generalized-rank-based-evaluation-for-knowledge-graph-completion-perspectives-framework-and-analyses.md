@@ -2,8 +2,6 @@
 title: "Generalized Rank-based Evaluation for Knowledge Graph Completion: Perspectives, Framework, and Analyses"
 date: 2026-07-28
 tags: ["워크샵"]
-notion_url: https://app.notion.com/p/Generalized-Rank-based-Evaluation-for-Knowledge-Graph-Completion-Perspectives-Framework-and-Analy-3abb3408c4c5801d9974d3cfe9e35d07
-last_edited_time: 2026-07-28T13:21:00.000Z
 ---
 
 # 지식그래프완성(KGC) 평가지표 연구 요약

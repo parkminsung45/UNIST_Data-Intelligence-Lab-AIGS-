@@ -2,8 +2,6 @@
 title: "A Simulation-Based Evaluation Framework for AI Agents Using Synthetic User-Agent Interactions"
 date: 2026-07-28
 tags: ["워크샵"]
-notion_url: https://app.notion.com/p/A-Simulation-Based-Evaluation-Framework-for-AI-Agents-Using-Synthetic-User-Agent-Interactions-3abb3408c4c58074a1e7ec46aa9087a7
-last_edited_time: 2026-07-28T13:21:00.000Z
 ---
 
 ### 에이전트 평가 관련 주요 문제

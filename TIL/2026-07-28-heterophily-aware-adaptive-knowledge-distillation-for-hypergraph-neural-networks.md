@@ -2,8 +2,6 @@
 title: "Heterophily-Aware Adaptive Knowledge Distillation for Hypergraph Neural Networks"
 date: 2026-07-28
 tags: ["워크샵"]
-notion_url: https://app.notion.com/p/Heterophily-Aware-Adaptive-Knowledge-Distillation-for-Hypergraph-Neural-Networks-3abb3408c4c580d29537fabb5d0af5a0
-last_edited_time: 2026-07-28T13:21:00.000Z
 ---
 
 ## 📌 연구 주제
