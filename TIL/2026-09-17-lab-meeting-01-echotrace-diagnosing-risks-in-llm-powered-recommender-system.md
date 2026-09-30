@@ -1,6 +1,6 @@
 ---
 title: "[1회차 랩미팅] EchoTrace: Diagnosing Risks in LLM-Powered Recommender System"
-date: 2026-09-30
+date: 2026-09-17
 tags: ["랩미팅"]
 ---
 

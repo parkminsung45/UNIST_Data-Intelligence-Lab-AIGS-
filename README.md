@@ -21,7 +21,7 @@ UNIST Data Intelligence Lab 학부연구생(RA)으로 활동하며 읽고 발표
 
 | 회차 | 논문 | 키워드 | 상세 |
 |:---:|---|---|:---:|
-| 1 | *EchoTrace: Diagnosing Risks in LLM-Powered Recommender System*<br>Park et al., [arXiv:2602.07442](https://arxiv.org/abs/2602.07442) | `LLM4RS` `Bias` `Hallucination` `Feedback Loop` | [노트](TIL/2026-09-30-lab-meeting-01-echotrace-diagnosing-risks-in-llm-powered-recommender-system.md) · [PDF](lab-meeting/01/EchoTrace_labmeeting_01.pdf) |
+| 1 | *EchoTrace: Diagnosing Risks in LLM-Powered Recommender System*<br>Park et al., [arXiv:2602.07442](https://arxiv.org/abs/2602.07442) | `LLM4RS` `Bias` `Hallucination` `Feedback Loop` | [노트](TIL/2026-09-17-lab-meeting-01-echotrace-diagnosing-risks-in-llm-powered-recommender-system.md) · [PDF](lab-meeting/01/EchoTrace_labmeeting_01.pdf) |
 
 <details>
 <summary><b>1회차 한 줄 요약</b></summary>
@@ -47,7 +47,7 @@ LLM이 만든 편향과 환각이 추천 → 소비 → 재학습 루프를 돌�
 | 2026-07-28 | [Multi-TAP: Multi-criteria Target Adaptive Persona Modeling for Cross-Domain Recommendation](TIL/2026-07-28-multi-tap-multi-criteria-target-adaptive-persona-modeling-for-cross-domain-recommendation.md) |
 | 2026-07-28 | [Supporting Designers' Vagueness by Connecting Natural Language Prompts with Real-World Design References through Knowledge Graphs](TIL/2026-07-28-supporting-designers-vagueness-by-connecting-natural-language-prompts-with-real-world-design-references-through-knowledge-graphs.md) |
 | 2026-07-28 | [Who Should Teach? Confidence-Aware Dual-Teacher Learning for Few-Shot Node Classification on Text-Attributed Graphs](TIL/2026-07-28-who-should-teach-confidence-aware-dual-teacher-learning-for-few-shot-node-classification-on-text-attributed-graphs.md) |
-| 2026-09-30 | [[1회차 랩미팅] EchoTrace: Diagnosing Risks in LLM-Powered Recommender System](TIL/2026-09-30-lab-meeting-01-echotrace-diagnosing-risks-in-llm-powered-recommender-system.md) |
+| 2026-09-17 | [[1회차 랩미팅] EchoTrace: Diagnosing Risks in LLM-Powered Recommender System](TIL/2026-09-17-lab-meeting-01-echotrace-diagnosing-risks-in-llm-powered-recommender-system.md) |
 
 ## 구성
 
