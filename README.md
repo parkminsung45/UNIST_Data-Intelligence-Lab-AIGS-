@@ -7,13 +7,13 @@
   <img alt="Lab" src="https://img.shields.io/badge/Data%20Intelligence%20Lab-1fc8c8?style=flat-square">
   <img alt="Role" src="https://img.shields.io/badge/Undergraduate%20RA-555?style=flat-square">
   <img alt="Meetings" src="https://img.shields.io/badge/lab%20meetings-1-blue?style=flat-square">
-  <img alt="TIL" src="https://img.shields.io/badge/TIL%20notes-11-success?style=flat-square">
+  <img alt="TIL" src="https://img.shields.io/badge/TIL%20notes-12-success?style=flat-square">
 </p>
 
 ## About
 
 UNIST Data Intelligence Lab 학부연구생(RA)으로 활동하며 읽고 발표한 논문, 배운 내용을 기록하는 저장소입니다.
-회차별 상세 내용(요약, 배운 점, 발표 자료)은 각 브랜치에 정리합니다.
+회차별 상세 내용(요약, 배운 점)은 `TIL/`의 노트 파일에, 발표 자료는 `lab-meeting/`에 정리합니다.
 
 **관심 분야**: 추천 시스템 · LLM · 그래프 학습
 
@@ -21,7 +21,7 @@ UNIST Data Intelligence Lab 학부연구생(RA)으로 활동하며 읽고 발표
 
 | 회차 | 논문 | 키워드 | 상세 |
 |:---:|---|---|:---:|
-| 1 | *EchoTrace: Diagnosing Risks in LLM-Powered Recommender System*<br>Park et al., [arXiv:2602.07442](https://arxiv.org/abs/2602.07442) | `LLM4RS` `Bias` `Hallucination` `Feedback Loop` | [meeting-01](../../tree/meeting-01) |
+| 1 | *EchoTrace: Diagnosing Risks in LLM-Powered Recommender System*<br>Park et al., [arXiv:2602.07442](https://arxiv.org/abs/2602.07442) | `LLM4RS` `Bias` `Hallucination` `Feedback Loop` | [노트](TIL/2026-09-30-lab-meeting-01-echotrace-diagnosing-risks-in-llm-powered-recommender-system.md) · [PDF](lab-meeting/01/EchoTrace_labmeeting_01.pdf) |
 
 <details>
 <summary><b>1회차 한 줄 요약</b></summary>
@@ -47,12 +47,13 @@ LLM이 만든 편향과 환각이 추천 → 소비 → 재학습 루프를 돌�
 | 2026-07-28 | [Multi-TAP: Multi-criteria Target Adaptive Persona Modeling for Cross-Domain Recommendation](TIL/2026-07-28-multi-tap-multi-criteria-target-adaptive-persona-modeling-for-cross-domain-recommendation.md) |
 | 2026-07-28 | [Supporting Designers' Vagueness by Connecting Natural Language Prompts with Real-World Design References through Knowledge Graphs](TIL/2026-07-28-supporting-designers-vagueness-by-connecting-natural-language-prompts-with-real-world-design-references-through-knowledge-graphs.md) |
 | 2026-07-28 | [Who Should Teach? Confidence-Aware Dual-Teacher Learning for Few-Shot Node Classification on Text-Attributed Graphs](TIL/2026-07-28-who-should-teach-confidence-aware-dual-teacher-learning-for-few-shot-node-classification-on-text-attributed-graphs.md) |
+| 2026-09-30 | [[1회차 랩미팅] EchoTrace: Diagnosing Risks in LLM-Powered Recommender System](TIL/2026-09-30-lab-meeting-01-echotrace-diagnosing-risks-in-llm-powered-recommender-system.md) |
 
 ## 구성
 
 ```
 .
 ├── assets/   # README 배너 등 이미지
-├── TIL/      # TIL 노트
-└── (meeting-XX 브랜치)  # 회차별 상세 기록
+├── TIL/           # TIL·랩미팅 노트
+└── lab-meeting/   # 회차별 발표 자료(PDF, 슬라이드)
 ```
