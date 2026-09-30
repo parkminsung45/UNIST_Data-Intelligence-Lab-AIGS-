@@ -1,4 +1,6 @@
-# DIL-Lab_undergraduate_RA(TIL)
+<p align="center">
+  <img src="assets/banner.svg" alt="DIL Lab Undergraduate RA" width="100%">
+</p>
 
 UNIST Data Intelligence Lab 학부연구생(RA) 활동 기록입니다. 논문 리뷰(랩미팅)와 TIL 노트를 정리합니다.
 
