@@ -11,7 +11,7 @@
 | **논문** | *EchoTrace: Diagnosing Risks in LLM-Powered Recommender System* |
 | **저자** | Donguk Park (UNIST), Dongwon Lee (Penn State), Yeon-Chang Lee (UNIST) |
 | **링크** | [arXiv:2602.07442](https://arxiv.org/abs/2602.07442) |
-| **발표** | 박민성 |
+| **발표** | 박민성 (2026-09-17) |
 | **자료** | [발표 PDF](lab-meeting/01/EchoTrace_labmeeting_01.pdf) |
 | **키워드** | `LLM4RS` `Bias` `Hallucination` `Feedback Loop` `Polarization` |
 
