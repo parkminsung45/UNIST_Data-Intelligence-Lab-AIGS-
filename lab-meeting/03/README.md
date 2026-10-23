@@ -11,7 +11,7 @@
 | **논문** | *MARIO: Modality-Aware Attention and Modality-Preserving Decoders for Multimedia Recommendation* |
 | **저자** | Taeri Kim, Yeon-Chang Lee, Kijung Shin, Sang-Wook Kim (Hanyang Univ. · KAIST) |
 | **학회** | CIKM 2022 · [DOI 10.1145/3511808.3557387](https://doi.org/10.1145/3511808.3557387) |
-| **발표** | 박민성 |
+| **발표** | 박민성 (2026-10-23) |
 | **자료** | [발표 PDF](MARIO_labmeeting_03.pdf) |
 | **키워드** | `Multimedia Recommendation` `Modality-aware Attention` `Modality-preserving Decoder` `Late Fusion` |
 
