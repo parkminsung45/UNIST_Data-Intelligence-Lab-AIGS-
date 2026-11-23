@@ -6,7 +6,7 @@
   <img alt="UNIST" src="https://img.shields.io/badge/UNIST-003a70?style=flat-square">
   <img alt="Lab" src="https://img.shields.io/badge/Data%20Intelligence%20Lab-1fc8c8?style=flat-square">
   <img alt="Role" src="https://img.shields.io/badge/Undergraduate%20RA-555?style=flat-square">
-  <img alt="Meetings" src="https://img.shields.io/badge/lab%20meetings-4-blue?style=flat-square">
+  <img alt="Meetings" src="https://img.shields.io/badge/lab%20meetings-5-blue?style=flat-square">
   <img alt="TIL" src="https://img.shields.io/badge/TIL%20notes-11-success?style=flat-square">
 </p>
 
@@ -26,6 +26,7 @@ UNIST Data Intelligence Lab 학부연구생(RA)으로 활동하며 읽고 발표
 | [`lab-meeting/02/`](lab-meeting/02) | 2회차 랩미팅 (2026-10-02) 요약, 배운 점, 발표 자료 |
 | [`lab-meeting/03/`](lab-meeting/03) | 3회차 랩미팅 (2026-10-23) 요약, 배운 점, 발표 자료 |
 | [`lab-meeting/04/`](lab-meeting/04) | 4회차 랩미팅 (2026-11-20) 요약, 배운 점, 발표 자료 |
+| [`lab-meeting/05/`](lab-meeting/05) | 5회차 랩미팅 (2026-11-23) 요약, 배운 점, 발표 자료 |
 
 ## 랩미팅 기록
 
@@ -35,3 +36,4 @@ UNIST Data Intelligence Lab 학부연구생(RA)으로 활동하며 읽고 발표
 | 2 | 2026-10-02 | *Multi-TAP: Multi-criteria Target Adaptive Persona Modeling for Cross-domain Recommendation*<br>Kang & Lee, KDD 2026, [arXiv:2603.07086](https://arxiv.org/abs/2603.07086) | `CDR` `LLM Persona` `IDH` `Doppelganger` | [상세](lab-meeting/02) |
 | 3 | 2026-10-23 | *MARIO: Modality-Aware Attention and Modality-Preserving Decoders for Multimedia Recommendation*<br>Kim et al., CIKM 2022, [DOI](https://doi.org/10.1145/3511808.3557387) | `Multimedia RS` `Modality-aware Attention` `Late Fusion` `Decoder` | [상세](lab-meeting/03) |
 | 4 | 2026-11-20 | *Graph Neural Networks & Graph Convolutional Networks*<br>AI Toolkits 강의 (Yeon-Chang Lee), ref. Stanford CS224W | `GNN` `GCN` `Permutation Equivariance` `Neighborhood Aggregation` | [상세](lab-meeting/04) |
+| 5 | 2026-11-23 | *MARIO: Modality-Aware Attention and Modality-Preserving Decoders for Multimedia Recommendation*<br>Kim et al., CIKM 2022, [DOI](https://doi.org/10.1145/3511808.3557387) | `Multimedia RS` `kNN Item Graph` `Modality-aware Attention` `MP Loss` | [상세](lab-meeting/05) |
